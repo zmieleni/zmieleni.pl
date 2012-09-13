@@ -56,16 +56,23 @@ var google_remarketing_only = true;
 			<div class="container">
 				<a class="brand" href="http://zmieleni.pl">Zmieleni.pl</a>
 				<ul class="nav">
-					<li><a href="http://blog.zmieleni.pl/Dlaczego%20zmieleni">Dlaczego
-							zmieleni?</a></li>
-					<li><a href="http://blog.zmieleni.pl/JOW">Dlaczego JOW-y?</a></li>
-					<li><a href="http://blog.zmieleni.pl/Czym%20s%20JOW-y">Czym
-							są JOW-y?</a></li>
-					<li><a href="http://blog.zmieleni.pl/abc">Abc JOW</a></li>
+					<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">O JOW<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+                          <li><a href="http://blog.zmieleni.pl/dlaczego">Dlaczego zmieleni?</a></li>                        
+                          <li><a href="http://blog.zmieleni.pl/JOW">Dlaczego JOW-y?</a></li>
+                          <li><a href="http://blog.zmieleni.pl/Czym%20s%20JOW-y">Czym są JOW-y?</a></li>
+                	   	  <li><a href="http://blog.zmieleni.pl/abc">Abc JOW</a></li>		
+                    </ul>
+                    </li>
+					<li><a href="http://blog.zmieleni.pl/tagged/spotkanie">Spotkania</a></li>											
+					<li><a href="http://blog.zmieleni.pl/tagged/aktualnosci">Aktualności</a></li>							
 					<li><a href="http://blog.zmieleni.pl/tagged/media">Media</a></li>
+					<li><a href="http://blog.zmieleni.pl/tagged/eksperci"> Eksperci</a></li>												
 					<li><a href="http://blog.zmieleni.pl/akcja">O Akcji</a></li>
 					<li><a href="contact">Kontakt/Jak
 							Pomóc</a></li>
+					<li> <a href="http://blog.zmieleni.pl/promocja">Materiały do pobrania</a></li>
 					<li><a href="http://blog.zmieleni.pl/ask">Masz pytanie</a></li>
 				</ul>
 			</div>

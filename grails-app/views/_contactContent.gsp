@@ -18,6 +18,10 @@
 				dużego spotkania lub <strong>happeningu</strong> o JOW, np. z
 				udziałem Pawła (październik)... Jeśli takich aktywnych grup będziemy
 				mieli w 50-100 miejscowościach, możemy ruszać pod Sejm ;-)<br />
+				<p>
+				<strong>Więcej informacji na temat “jak zorganizować spotkanie” znajdziesz <a href="http://blog.zmieleni.pl/instrukcja"> tutaj. </a>
+				</strong>
+				</p>
 				<br />
 			</p>
 		</li>
@@ -65,6 +69,14 @@
 			</p>
 		</li>
 	</ul>
+	<p>
+	Centrala akcji :<br>
+	<br>
+	BIURO KRAJOWE RUCHU NA RZECZ JOW <br>
+	ul. Białoskórnicza 3/1<br>
+	50-134 Wrocław<br>
+	tel. (71) 3424644<br>
+	</p>
 </section>
 <div id="disqus_thread" class="span9"></div>
 <r:script>
