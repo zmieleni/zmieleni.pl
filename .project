@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>jednomandatowe</name>
+	<name>zmieleni.pl</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -17,7 +17,7 @@
 		</buildCommand>
 	</buildSpec>
 	<natures>
-		<nature>com.springsource.sts.grails.core.nature</nature>
+		<nature>org.grails.ide.eclipse.core.nature</nature>
 		<nature>org.eclipse.jdt.groovy.core.groovyNature</nature>
 		<nature>org.grails.ide.eclipse.core.nature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
@@ -27,7 +27,7 @@
 		<link>
 			<name>.link_to_grails_plugins</name>
 			<type>2</type>
-			<locationURI>GRAILS_ROOT/2.0.4/projects/jednomandatowe/plugins</locationURI>
+			<locationURI>GRAILS_ROOT/2.1.0/projects/zmieleni.pl/plugins</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

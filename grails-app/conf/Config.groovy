@@ -89,3 +89,36 @@ log4j = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
+
+environments {
+	development {
+		grails.resources.cdn.enabled = false
+		grails.resources.cdn.url = "http://d2n70rm00ycm8n.cloudfront.net/static"
+	}
+	production {
+		grails.resources.cdn.enabled = true
+		grails.resources.cdn.url = "http://d2n70rm00ycm8n.cloudfront.net/static"				
+	}
+}
+
+grails {
+	plugin {
+		aws {
+			ses { 
+			   enabled = true 
+			   from = "info@zmieleni.pl" 
+			   }
+		}
+	}
+}
+
+grails {
+	plugin {
+		aws {
+			credentials {
+			 }
+		}
+	}
+}
+
+

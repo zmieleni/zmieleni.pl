@@ -41,20 +41,25 @@ grails.project.dependency.resolution = {
         runtime ":hibernate:$grailsVersion"
         runtime ":jquery:1.7.2"
         runtime ":resources:1.1.6"
-		runtime ":twitter-bootstrap:2.1.0.1"
+		runtime ":twitter-bootstrap:2.1.1"
 		runtime ":fields:1.3"
 
         // Uncomment these (or add new ones) to enable additional resources capabilities
         //runtime ":zipped-resources:1.0"
         //runtime ":cached-resources:1.0"
-        //runtime ":yui-minify-resources:0.1.4"
 
         build ":tomcat:$grailsVersion"
 
         runtime ":database-migration:1.1"
+		runtime ":cache-headers:1.1.5"
+		runtime ":cached-resources:1.0"
 		runtime ":zipped-resources:1.0"
+		runtime ":yui-minify-resources:0.1.4"
 		
 		compile ":simple-captcha:0.9.1"
+		compile ":cdn-resources:0.2.1"
+		compile ":aws:1.2.12.2"
+		
 		
     }
 }

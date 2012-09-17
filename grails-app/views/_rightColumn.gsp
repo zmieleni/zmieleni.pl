@@ -1,19 +1,25 @@
 <aside id="application-status" class="span3"
 	style="text-align: left; padding-top: 0px">
 	<div class="well sidebar-nav" style="padding-top: 0px">
-<ul class="nav nav-pills nav-stacked" style="font-size:18px">
+<ul class="nav nav-pills nav-stacked" style="font-size:18px; padding-top:20px">
+  <li>
+    <a href="http://blog.zmieleni.pl/przeczytaj">Przeczytaj koniecznie!</a>
+  </li>
+ 
    <li >
     <a href="http://blog.zmieleni.pl/tagged/spotkanie">Najbliższe spotkania</a>
   </li>
-   <li>
-    <a href="http://blog.zmieleni.pl/tagged/aktualnosci">Aktualności</a>
+  <li>
+    <a href="meetings">Mapa spotkań</a>
   </li>
-   <li>
-    <a href="http://blog.zmieleni.pl/tagged/media">Media</a>
+  <li>
+    <a href="http://forum.zmieleni.pl">Forum</a>
   </li>
-   <li>
+
+  <li>
     <a href="http://blog.zmieleni.pl/promocja">Materiały do pobrania</a>
   </li>
+  
 </ul>
 	</div>
 	<iframe

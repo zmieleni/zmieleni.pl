@@ -13,8 +13,8 @@
 		<h3 style="text-align: center">Zobacz co się stało z zebranymi
 			podpisami!</h3>
 	</div>
-	<div class="span6">
-		<object width="560" height="420">
+	<div>
+		<object width="570" height="420">
 			<param name="movie"
 				value="http://www.youtube.com/v/pGWNnFnQ5AI?version=3&amp;hl=pl_PL"></param>
 			<param name="allowFullScreen" value="true"></param>
@@ -25,11 +25,11 @@
 				allowscriptaccess="always" allowfullscreen="true"></embed>
 		</object>
 	</div>
-	<div class="span6">
+	<div>
 		Niestety film został usunięty z Youtube. Można go jeszcze obejrzeć <a
 			href="http://www.youtube.com/watch?v=4DLYDrf28g8&feature=plcp">tutaj.</a>
 	</div>
-	<div class="span6">
-		<fb:comments href="http://www.zmieleni.pl" num_posts="5" width="560"></fb:comments>
+	<div>
+		<fb:comments href="http://www.zmieleni.pl" num_posts="5" width="560" reverse="false"></fb:comments>
 	</div>
 </section>

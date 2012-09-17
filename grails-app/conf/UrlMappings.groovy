@@ -9,6 +9,7 @@ class UrlMappings {
 		"/sign"(view:"/sign")
 		"/contact"(view:"/contact")
 		"/thankyou"(view:"/thankyou")
+		"/meetings"(view:"meetings")
 		"/"(view:"/index")
 		"500"(view:'/error')
 	}

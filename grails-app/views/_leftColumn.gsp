@@ -1,6 +1,6 @@
 <aside id="application-status" class="span3">
 	<div class="well sidebar-nav">
-		<h3 style="padding-top: 5px">Cytaty:</h3>
+		<h3 style="padding-top: 0px">Cytaty:</h3>
 		<div class="row-fluid" style="padding-top: 20px">
 			<div class="span7">
 				<g:img dir="images" file="przystawa.jpg" class="img-rounded" />
@@ -18,7 +18,7 @@
 						proporcjonalnymi </strong> </cite>
 			</div>
 		</div>
-		<div class="row-fluid">
+		<div class="row-fluid" style="padding-top: 20px">
 			<div class="span7">
 				<g:img dir="images" file="ZbigniewBrzezinski.jpg"
 					class="img-rounded" />

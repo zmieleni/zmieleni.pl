@@ -56,6 +56,8 @@ var google_remarketing_only = true;
 			<div class="container">
 				<a class="brand" href="http://zmieleni.pl">Zmieleni.pl</a>
 				<ul class="nav">
+				
+					<li><a href="http://blog.zmieleni.pl/przeczytaj">Przeczytaj koniecznie!</a></li>
 					<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">O JOW<b class="caret"></b></a>
 					<ul class="dropdown-menu">
@@ -66,13 +68,11 @@ var google_remarketing_only = true;
                     </ul>
                     </li>
 					<li><a href="http://blog.zmieleni.pl/tagged/spotkanie">Spotkania</a></li>											
-					<li><a href="http://blog.zmieleni.pl/tagged/aktualnosci">Aktualności</a></li>							
-					<li><a href="http://blog.zmieleni.pl/tagged/media">Media</a></li>
-					<li><a href="http://blog.zmieleni.pl/tagged/eksperci"> Eksperci</a></li>												
+				<li><a href="http://blog.zmieleni.pl/tagged/media">Media</a></li>
+					<li><a href="http://forum.zmieleni.pl">Forum</a></li>												
 					<li><a href="http://blog.zmieleni.pl/akcja">O Akcji</a></li>
 					<li><a href="contact">Kontakt/Jak
 							Pomóc</a></li>
-					<li> <a href="http://blog.zmieleni.pl/promocja">Materiały do pobrania</a></li>
 					<li><a href="http://blog.zmieleni.pl/ask">Masz pytanie</a></li>
 				</ul>
 			</div>
