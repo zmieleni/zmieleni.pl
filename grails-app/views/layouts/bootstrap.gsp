@@ -94,10 +94,10 @@ var google_remarketing_only = true;
 			 </div>
 					
 					<div class="span1">
-						<a href="http://blog.zmieleni.pl/regulamin">Regulamin</a>
+						<a href="regulamin">Regulamin</a>
 					</div>
 					<div class="span1">
-						<a href="http://blog.zmieleni.pl/prywatnosc">Prywatność</a>
+						<a href="prywatnosc">Prywatność</a>
 					</div>
 					<div class="span1">
 						<a href="http://blog.zmieleni.pl/akcja">O Akcji</a>

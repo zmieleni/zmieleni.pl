@@ -64,7 +64,8 @@ $("#allow").attr("required", "true");
 					<g:checkBox name="allow" checked="false" />
 					</div>
 					<div class="controls">
-					<p style="font-size:10px">Wyrażam zgodę na otrzymywanie informacji dotyczących jednomandatowych okręgów wyborczych drogą elektroniczną (zgodnie z Ustawą z dnia 18 lipca 2002 r. o świadczeniu usług drogą elektroniczną, Dz.U. nr 144, poz. 1204.
+					<p style="font-size:10px">
+					Wyrażam zgodę na przetwarzanie moich danych osobowych przez Stowarzyszenie na rzecz Zmiany Systemu Wyborczego "Jednomandatowe Okręgi Wyborcze" z siedzibą we Wrocławiu, przy ul. Białoskórniczej 3/1, na potrzeby informowania Użytkownika o aktywności akcji Zmieleni.pl. Akceptuje <a href="regulamin"> Regulamin </a> serwisu zmieleni.pl oraz zapoznałem się z <a href="prywatnosc"> Polityką Prywatności </a>, jak i wyrażam zgodę na otrzymywanie informacji droga mailową dotyczących akcji Zmieleni.pl  
 					</p>
 					</div>		
 					

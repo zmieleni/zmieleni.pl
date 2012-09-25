@@ -6,6 +6,8 @@
 				<li class="nav-header">O zmieleni.pl</li>
 				<li><a href="http://blog.zmieleni.pl/przeczytaj"><i
 						class="icon-star"></i> Przeczytaj koniecznie!</a></li>
+				<li><a href="http://blog.zmieleni.pl/akcja"><i
+						class="icon-star"></i> Co dalej?</a></li>
 				<li><a href="http://forum.zmieleni.pl"> <i
 						class="icon-comment"></i> Forum</a></li>
 				<li><a href="http://blog.zmieleni.pl/promocja"><i

@@ -11,6 +11,8 @@ class UrlMappings {
 		"/thankyou"(view:"/thankyou")
 		"/meetings"(view:"/meetings")
 		"/meeting"(controller:"/organizeMeeting/create")		
+		"/regulamin"(view:"/terms")
+		"/prywatnosc"(view:"/policy")
 		"/"(view:"/index")
 		"500"(view:'/error')
 	}
