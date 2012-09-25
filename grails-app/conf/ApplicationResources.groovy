@@ -8,4 +8,7 @@ modules = {
 	twitter {
 		resource url:'js/twitter.js'
 	}
+	fonty {
+		resource url:'css/font-awesome.css'
+	}
 }

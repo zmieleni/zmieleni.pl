@@ -6,5 +6,4 @@
 		<g:render template="/middleColumn" />
 		<g:render template="/rightColumn" />
 	</div>
-	<g:render template="/create"/>	
 	<div id="fb-root"></div>

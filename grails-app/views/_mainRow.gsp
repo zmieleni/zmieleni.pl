@@ -53,7 +53,7 @@
 			class="img-rounded" />
 	
 	<h4>
-		<a href="contact"> Zobacz, jak Ty możesz pomóc i włączyć się w akcję! </a>
+		<a href="http://blog.zmieleni.pl/kontakt"> Zobacz, jak Ty możesz pomóc i włączyć się w akcję! </a>
 	</h4>
 </div>	
 </div>

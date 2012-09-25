@@ -69,9 +69,10 @@ var google_remarketing_only = true;
                     </li>
 					<li><a href="http://blog.zmieleni.pl/tagged/spotkanie">Spotkania</a></li>											
 				<li><a href="http://blog.zmieleni.pl/tagged/media">Media</a></li>
-					<li><a href="http://forum.zmieleni.pl">Forum</a></li>												
+					<li><a href="http://forum.zmieleni.pl">Forum</a></li>	
+					<li><a href="http://blog.zmieleni.pl/tagged/eksperci">Eksperci</a></li>																	
 					<li><a href="http://blog.zmieleni.pl/akcja">O Akcji</a></li>
-					<li><a href="contact">Kontakt/Jak
+					<li><a href="http://blog.zmieleni.pl/kontakt">Kontakt/Jak
 							Pomóc</a></li>
 					<li><a href="http://blog.zmieleni.pl/ask">Masz pytanie</a></li>
 				</ul>

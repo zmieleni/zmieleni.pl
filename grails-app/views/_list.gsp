@@ -1,6 +1,6 @@
 
 <%@ page import="pl.jednomandatowe.Signature" %>
-
+<cache:block>
 				<table class="table table-striped table-bordered">
 					  <caption></caption>
 					<thead>
@@ -21,4 +21,4 @@
 					</g:each>
 					</tbody>
 				</table>			
-
+</cache:block>

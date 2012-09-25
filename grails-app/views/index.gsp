@@ -9,7 +9,9 @@ $("#triggerModal").click(function() {$('#myModal').modal('show')});
 </r:script>
 </head>
 <body>
+
 <g:render template="/main"/>	
 <g:render template="/create"/>	
+
 </body>
 </html>

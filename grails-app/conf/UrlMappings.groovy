@@ -9,7 +9,8 @@ class UrlMappings {
 		"/sign"(view:"/sign")
 		"/contact"(view:"/contact")
 		"/thankyou"(view:"/thankyou")
-		"/meetings"(view:"meetings")
+		"/meetings"(view:"/meetings")
+		"/meeting"(controller:"/organizeMeeting/create")		
 		"/"(view:"/index")
 		"500"(view:'/error')
 	}

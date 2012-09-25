@@ -120,5 +120,9 @@ grails {
 		}
 	}
 }
-
+grails.cache.config = {
+	cache {
+	   name 'main'
+	}
+ }
 

@@ -1,3 +1,4 @@
+<cache:block>
 <aside id="application-status" class="span3">
 	<div class="well sidebar-nav">
 		<h3 style="padding-top: 0px">Cytaty:</h3>
@@ -147,3 +148,4 @@
 		</div>
 	</div>
 </aside>
+</cache:block>
