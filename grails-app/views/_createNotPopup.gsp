@@ -7,16 +7,9 @@
 <r:script>
 $("#allow").attr("required", "true");
 </r:script>
-<div class="modal hide fade" id="myModal">
-	<div class="modal-header">
-		<button type="button" class="close" data-dismiss="modal"
-			aria-hidden="true">×</button>
-		<h3 id="myModalLabel">
-			<g:message code="support.our.action" default="Support our action!" />
-		</h3>
-	</div>
-	<div class="modal-body">
-
+		<div style="text-align:center">
+		<h3>Popieram JOW!</h3>
+		</div>
 		<g:hasErrors bean="${signatureInstance}">
 
 			<bootstrap:alert class="alert-error">
@@ -31,7 +24,7 @@ $("#allow").attr("required", "true");
 		</g:hasErrors>
 
 		<fieldset>
-			<g:form class="form-horizontal" action="create"
+			<g:form class="form-horizontal" action="createNotPopup"
 				controller="signature">
 				<fieldset>
 <%--					<f:all bean="signatureInstance" />--%>
@@ -68,20 +61,13 @@ $("#allow").attr("required", "true");
 					Wyrażam zgodę na przetwarzanie moich danych osobowych przez Stowarzyszenie na rzecz Zmiany Systemu Wyborczego "Jednomandatowe Okręgi Wyborcze" z siedzibą we Wrocławiu, przy ul. Białoskórniczej 3/1, na potrzeby informowania Użytkownika o aktywności akcji Zmieleni.pl. Akceptuje <a href="regulamin"> Regulamin </a> serwisu zmieleni.pl oraz zapoznałem się z <a href="prywatnosc"> Polityką Prywatności </a>, jak i wyrażam zgodę na otrzymywanie informacji droga mailową dotyczących akcji Zmieleni.pl  
 					</p>
 					</div>		
-					
-					<div class="modal-footer" style="margin: 10px">
-						<button class="btn" data-dismiss="modal" aria-hidden="true">Zamknij</button>
+					<div class="controls">				
 						<button type="submit" class="btn btn-primary">
 							<i class="icon-ok icon-white"></i>
-							<g:message code="default.button.create.label" default="Popieram" />
+							<g:message code="default.button.sign.label" default="Popieram!" />
 						</button>
 					</div>
 				</fieldset>
 
 			</g:form>
 		</fieldset>
-
-	</div>
-
-</div>
-

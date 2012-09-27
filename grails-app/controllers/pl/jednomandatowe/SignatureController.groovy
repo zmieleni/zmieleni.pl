@@ -1,5 +1,6 @@
 package pl.jednomandatowe
 
+import grails.converters.XML
 import org.springframework.dao.DataIntegrityViolationException
 
 class SignatureController {
@@ -41,17 +42,45 @@ class SignatureController {
 			}
 		}
     }
+	
+	def createNotPopup() {
+		switch (request.method) {
+		case 'GET':
+			render(view: "/index", model: ['signatureInstance': new Signature(params)])
+			break
+		case 'POST':
+	
+			boolean captchaValid = simpleCaptchaService.validateCaptcha(params.captcha)
+			def signatureInstance = new Signature(params)
+			if (captchaValid) {
+				signatureInstance.allow = (params.allow == 'on')
+				if (!signatureInstance.save(flush: true)) {
+				render(view: "/signNotPopup",model:['signatureInstance':signatureInstance])
+				return
+			}
+			//flash.message = message(code: 'default.created.message', args: [message(code: 'signature.label', default: 'Signature'), signatureInstance.id])
+			redirect(uri: "/thankyounotpopup")
+			break
+			} else {
+			flash.message = message(code: 'wrong.captcha')
+			
+				render(view: "/signNotPopup",model:['signatureInstance':signatureInstance])
+			}
+		}
+	}
 
     def show() {
-        def signatureInstance = Signature.get(params.id)
-        if (!signatureInstance) {
-			flash.message = message(code: 'default.not.found.message', args: [message(code: 'signature.label', default: 'Signature'), params.id])
-            redirect action: 'list'
-            return
-        }
-
-        [signatureInstance: signatureInstance]
+		if (params.id && Signature.exists(params.id)) {
+			def p = Signature.get(params.id)
+			render p as XML
+		}
+		else {
+			def all = Signature.list(max : 10, sort:"dateCreated", order:"desc")
+			render all as XML
+		}		
     }
+	
+	
 
 //    def edit() {
 //		switch (request.method) {

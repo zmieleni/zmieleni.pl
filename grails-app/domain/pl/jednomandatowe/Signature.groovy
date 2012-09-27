@@ -24,4 +24,19 @@ class Signature {
 		}
 	}
 	
+	
+	static {
+		grails.converters.XML.registerObjectMarshaller(Signature) {
+		   // you can filter here the key-value pairs to output:
+		   return it.properties.findAll {k,v -> (k != 'email' && k != 'id' && k != 'dateCreated' && k != 'allow')}
+		  }
+    }
+	
+	static {
+		grails.converters.JSON.registerObjectMarshaller(Signature) {
+		   // you can filter here the key-value pairs to output:
+		   return it.properties.findAll {k,v -> (k != 'email' && k != 'id' && k != 'dateCreated' && k != 'allow')}
+		  }
+	}
+	
 }
