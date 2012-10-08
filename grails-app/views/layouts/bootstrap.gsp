@@ -99,12 +99,9 @@ var google_remarketing_only = true;
 					<div class="span1">
 						<a href="prywatnosc">Prywatność</a>
 					</div>
-					<div class="span1">
-						<a href="http://blog.zmieleni.pl/akcja">O Akcji</a>
-					</div>
-					<div class="span2">
-						<a href="http://blog.zmieleni.pl/kontakt">Kontakt/Jak Pomóc</a>
-					</div>
+					<div class="span3">
+						<a href="http://freshmail.pl">Newsletter power by  <g:img dir="images" file="freshmail.png" /> </a>
+					</div>					
 					<span class="designed_bg span4">Opieka informatyczna <a
 						title="Stermedia Systemy Informatyczne Wrocław"
 						href="http://www.stermedia.pl">Stermedia Sp. z o.o.</a>.

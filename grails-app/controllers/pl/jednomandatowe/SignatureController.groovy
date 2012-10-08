@@ -1,6 +1,7 @@
 package pl.jednomandatowe
 
 import grails.converters.XML
+import grails.converters.JSON
 import org.springframework.dao.DataIntegrityViolationException
 
 class SignatureController {
@@ -72,13 +73,19 @@ class SignatureController {
     def show() {
 		if (params.id && Signature.exists(params.id)) {
 			def p = Signature.get(params.id)
-			render p as XML
+			def resp = "${params.callback}(${p as JSON})"
+			render  resp
 		}
 		else {
 			def all = Signature.list(max : 10, sort:"dateCreated", order:"desc")
-			render all as XML
+			def resp = "${params.callback}(${all as JSON})"
+			render  resp
 		}		
     }
+	
+	def count() {
+		render "${params.callback}(${[count : Signature.count()] as JSON})"
+	}
 	
 	
 

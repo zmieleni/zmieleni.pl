@@ -48,12 +48,12 @@
 		</div>
 	</div>
 	<div class="span5">
-<div>
-		<g:img dir="images" file="kukiz.jpg" align="center"
-			class="img-rounded" />
+<div style="text-align:center">
+
+<iframe width="470" height="415" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.pl/maps/ms?hl=pl&amp;gl=pl&amp;ie=UTF8&amp;oe=UTF8&amp;msa=0&amp;msid=214435328674530446764.0004c9aa29eadc43277e2&amp;t=m&amp;source=embed&amp;ll=52.200874,18.105469&amp;spn=8.084555,15.88623&amp;z=6&amp;output=embed"></iframe><br /><small>Pokaż <a href="https://maps.google.pl/maps/ms?hl=pl&amp;gl=pl&amp;ie=UTF8&amp;oe=UTF8&amp;msa=0&amp;msid=214435328674530446764.0004c9aa29eadc43277e2&amp;t=m&amp;source=embed&amp;ll=52.200874,18.105469&amp;spn=8.084555,15.88623&amp;z=6" style="color:#0000FF;text-align:left">zmieleni.pl</a> na większej mapie</small></body>
+
+<%--		<g:img dir="images" file="kukiz.jpg" align="center"--%>
+<%--			class="img-rounded" />--%>
 	
-	<h4>
-		<a href="http://blog.zmieleni.pl/kontakt"> Zobacz, jak Ty możesz pomóc i włączyć się w akcję! </a>
-	</h4>
 </div>	
 </div>

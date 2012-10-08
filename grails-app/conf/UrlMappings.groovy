@@ -6,8 +6,11 @@ class UrlMappings {
 				// apply constraints here
 			}
 		}
-		"/signaturerest"(controller: "signature") {
+		"/signaturelist"(controller: "signature") {
 			action = [GET: "show"]
+		}
+		"/signaturecount"(controller: "signature") {
+			action = [GET: "count"]
 		}
 		"/sign"(view:"/sign")
 		"/signnotpopup"(view:"/signNotPopup")
