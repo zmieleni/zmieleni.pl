@@ -18,8 +18,11 @@
 				<li><a href="http://blog.zmieleni.pl/promocja"><i
 						class="icon-picture"></i> Materiały do
 						pobrania</a></li>
+				<li><a href="http://www.youtube.com/user/Zmielenipl"><i
+						class="icon-facetime-video"></i> Zmieleni na Youtube</a></li>
+						 
 				<li class="nav-header">Spotkania</li>
-				<li><a href="http://blog.zmieleni.pl/zjazd"><i
+				<li><a href="http://blog.zmieleni.pl/post/33590842791/zjazdi"><i
 						class="icon-bullhorn"></i> Zjazd Zmielonych - 13 X w Łodzi</a></li>
 				<li><a href="http://blog.zmieleni.pl/tagged/spotkanie"><i
 						class="icon-bullhorn"></i> Najbliższe

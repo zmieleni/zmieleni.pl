@@ -11,4 +11,7 @@ modules = {
 	fonty {
 		resource url:'css/font-awesome.css'
 	}
+	rss {
+		resource url:'js/jquery.zrssfeed.min.js'
+	}
 }

@@ -1,4 +1,5 @@
 <%@ page import="pl.jednomandatowe.Signature"%>
+
 <section id="main" class="span6">
 	<div class="hero-unit"
 		style="padding-left: 15px; padding-top: 5px; text-align: center">
@@ -29,7 +30,12 @@
 		Niestety film został usunięty z Youtube. Można go jeszcze obejrzeć <a
 			href="http://www.youtube.com/watch?v=4DLYDrf28g8&feature=plcp">tutaj.</a>
 	</div>
-	<div>
-		<fb:comments href="http://www.zmieleni.pl" num_posts="5" width="560" reverse="false"></fb:comments>
+	<div><h3>Aktualności</h3></div>
+	<div id="rssCurrent">
+	
+	</div>
+		<div><h3>Artykuły ekspertów</h3></div>
+	<div id="rssExpert">
+	
 	</div>
 </section>
