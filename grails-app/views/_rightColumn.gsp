@@ -4,6 +4,9 @@
 		<div class="well">
 			<ul class="nav nav-list" style="font-size: 18px; padding-top: 5px">
 				<li class="nav-header">Jak pomóc?</li>
+				
+				<li><a href="http://blog.zmieleni.pl/post/34241937606/referendum"><i
+						class="icon-star"></i> Referendum!</a></li>
 				<li><a href="http://blog.zmieleni.pl/kontakt"><i
 						class="icon-star"></i> Ja TY możesz się włączyć!</a></li>
 						<li><a href="http://blog.zmieleni.pl/sztab"><i
@@ -23,7 +26,7 @@
 						 
 				<li class="nav-header">Spotkania</li>
 				<li><a href="http://blog.zmieleni.pl/post/33590842791/zjazdi"><i
-						class="icon-bullhorn"></i> Zjazd Zmielonych - 13 X w Łodzi</a></li>
+						class="icon-bullhorn"></i>Najbliższe wydarzenia</a></li>
 				<li><a href="http://blog.zmieleni.pl/tagged/spotkanie"><i
 						class="icon-bullhorn"></i> Najbliższe
 						spotkania</a></li>

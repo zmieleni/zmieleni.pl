@@ -7,7 +7,11 @@ class Signature {
 	String city
 	String email
 	Date dateCreated
+	Province province
 	boolean allow
+	Boolean syncWithFreshMail
+			
+	
 	
 	def beforeInsert() {
 		dateCreated = new Date()
@@ -16,7 +20,7 @@ class Signature {
     static constraints = {
 		firstName(blank:false)
 		lastName(blank:false)
-		email(	)
+		syncWithFreshMail(nullable:true)
 		email(blank:false)
 		email(nullable:false)
 		allow validator: {
@@ -39,4 +43,6 @@ class Signature {
 		  }
 	}
 	
+	
 }
+

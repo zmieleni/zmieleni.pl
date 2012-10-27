@@ -11,7 +11,7 @@
 						</tr>
 					</thead>
 					<tbody>
-					<g:each in="${Signature.list(max : 10, sort:"dateCreated", order:"desc")}" var="signatureInstance">
+					<g:each in="${Signature.list(max : 5, sort:"dateCreated", order:"desc")}" var="signatureInstance">
 						<tr>						
 							<td>${fieldValue(bean: signatureInstance, field: "firstName")} ${fieldValue(bean: signatureInstance, field: "lastName")}</td>
 																	

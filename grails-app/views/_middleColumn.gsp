@@ -10,6 +10,13 @@
 		</p>
 		<g:render template="/list"/>
 	</div>
+	<div ><h4 ><a style="color: #000000;" href="http://blog.zmieleni.pl/tagged/news">Aktualności:</a></h4></div>
+	<div class="well">
+	<div id="rssCurrent" >		</div>	
+	<div style="text-align: right"> <a href="http://blog.zmieleni.pl/tagged/news"> >>pokaż więcej</a></div>	
+	</div>
+	<div><h4><a style="color: #000000;" href="http://http://blog.zmieleni.pl/tagged/eksperci">Artykuły ekspertów:</a></h4></div>
+		<div id="rssExpert"class="well" ></div>
 	<div>
 		<h3 style="text-align: center">Zobacz co się stało z zebranymi
 			podpisami!</h3>
@@ -29,13 +36,5 @@
 	<div>
 		Niestety film został usunięty z Youtube. Można go jeszcze obejrzeć <a
 			href="http://www.youtube.com/watch?v=4DLYDrf28g8&feature=plcp">tutaj.</a>
-	</div>
-	<div><h3>Aktualności</h3></div>
-	<div id="rssCurrent">
-	
-	</div>
-		<div><h3>Artykuły ekspertów</h3></div>
-	<div id="rssExpert">
-	
 	</div>
 </section>

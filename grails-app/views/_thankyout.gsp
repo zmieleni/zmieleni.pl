@@ -28,7 +28,7 @@
 </div>
 <p>
 Jeśli chciałbyś pomóc, prosimy o kontakt - kontakt@zmieleni.pl - więcej informacji
-na stronie <a href="contact">Kontakt/Jak Pomóc</a>
+na stronie <a href="http://blog.zmieleni.pl/kontakt">Kontakt/Jak Pomóc</a>
 </p>
 <div class="modal-footer" style="margin: 10px">
 						<a href="http://www.zmieleni.pl" class="btn">Zamknij</a>					

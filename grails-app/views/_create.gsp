@@ -1,6 +1,7 @@
 <%@ page import="pl.jednomandatowe.Signature"%>
+<%@ page import="pl.jednomandatowe.Province"%>
 <g:if test="${signatureInstance==null}">
-<g:set var="signatureInstance"
+	<g:set var="signatureInstance"
 		value="${new pl.jednomandatowe.Signature() }">
 	</g:set>
 </g:if>
@@ -34,13 +35,21 @@ $("#allow").attr("required", "true");
 			<g:form class="form-horizontal" action="create"
 				controller="signature">
 				<fieldset>
-<%--					<f:all bean="signatureInstance" />--%>
-					<f:field bean="signatureInstance" property="firstName"/>
-					<f:field bean="signatureInstance" property="lastName"/>
-					<f:field bean="signatureInstance" property="email"/>
-					<f:field bean="signatureInstance" property="city" label="Miejscowość"/>
-					
-					
+					<%--					<f:all bean="signatureInstance" />--%>
+					<f:field bean="signatureInstance" property="firstName" />
+					<f:field bean="signatureInstance" property="lastName" />
+					<f:field bean="signatureInstance" property="email" />
+					<f:field bean="signatureInstance" property="city"
+						label="Miejscowość" />
+
+					<div class="control-group">
+						<label class="control-label" for="province"><g:message
+								code="province" default="Województwo"/>:</label>
+						<div class="controls">
+							<g:select from="${Province.values()}" name="province"
+								optionKey="key"></g:select>
+						</div>
+					</div>
 					<div class="control-group ">
 						<div class="controls">
 							<img
@@ -51,7 +60,7 @@ $("#allow").attr("required", "true");
 						<label for="captcha"><g:message code="capcha.message"
 								default="Wpisz litery z ramki"></g:message></label>
 					</div>
-								
+
 					<div class="controls">
 						<g:if test="${flash.message}">
 							<bootstrap:alert class="alert-info">
@@ -61,14 +70,22 @@ $("#allow").attr("required", "true");
 						<g:textField name="captcha" />
 					</div>
 					<div class="controls">
-					<g:checkBox name="allow" checked="false" />
+						<g:checkBox name="allow" checked="false" />
 					</div>
 					<div class="controls">
-					<p style="font-size:10px">
-					Wyrażam zgodę na przetwarzanie moich danych osobowych przez Stowarzyszenie na rzecz Zmiany Systemu Wyborczego "Jednomandatowe Okręgi Wyborcze" z siedzibą we Wrocławiu, przy ul. Białoskórniczej 3/1, na potrzeby informowania Użytkownika o aktywności akcji Zmieleni.pl. Akceptuje <a href="regulamin"> Regulamin </a> serwisu zmieleni.pl oraz zapoznałem się z <a href="prywatnosc"> Polityką Prywatności </a>, jak i wyrażam zgodę na otrzymywanie informacji droga mailową dotyczących akcji Zmieleni.pl  
-					</p>
-					</div>		
-					
+						<p style="font-size: 10px">
+							Wyrażam zgodę na przetwarzanie moich danych osobowych przez
+							Stowarzyszenie na rzecz Zmiany Systemu Wyborczego "Jednomandatowe
+							Okręgi Wyborcze" z siedzibą we Wrocławiu, przy ul.
+							Białoskórniczej 3/1, na potrzeby informowania Użytkownika o
+							aktywności akcji Zmieleni.pl. Akceptuje <a href="regulamin">
+								Regulamin </a> serwisu zmieleni.pl oraz zapoznałem się z <a
+								href="prywatnosc"> Polityką Prywatności </a>, jak i wyrażam
+							zgodę na otrzymywanie informacji droga mailową dotyczących akcji
+							Zmieleni.pl
+						</p>
+					</div>
+
 					<div class="modal-footer" style="margin: 10px">
 						<button class="btn" data-dismiss="modal" aria-hidden="true">Zamknij</button>
 						<button type="submit" class="btn btn-primary">
