@@ -1,5 +1,7 @@
 package pl.jednomandatowe
 
+import pl.jednomandatowe.Province
+
 class Signature {
 	
 	String firstName
@@ -10,6 +12,7 @@ class Signature {
 	Province province
 	boolean allow
 	Boolean syncWithFreshMail
+	Boolean newSignature	
 			
 	
 	
@@ -21,6 +24,7 @@ class Signature {
 		firstName(blank:false)
 		lastName(blank:false)
 		syncWithFreshMail(nullable:true)
+		newSignature(nullable:true)
 		email(blank:false)
 		email(nullable:false)
 		allow validator: {

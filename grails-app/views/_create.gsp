@@ -46,7 +46,7 @@ $("#allow").attr("required", "true");
 						<label class="control-label" for="province"><g:message
 								code="province" default="Województwo"/>:</label>
 						<div class="controls">
-							<g:select from="${Province.values()}" name="province"
+							<g:select from="${pl.jednomandatowe.Province.values()}" name="province"
 								optionKey="key"></g:select>
 						</div>
 					</div>

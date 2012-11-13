@@ -20,6 +20,6 @@
 </div>
 <p>
 Jeśli chciałbyś pomóc, prosimy o kontakt - kontakt@zmieleni.pl - więcej informacji
-na stronie <strong><a href="http://blog.zmieleni.pl/kontakt">Kontakt/Jak Pomóc</a> </strong>
+na stronie <strong><a href="http://zmieleni.pl/jak-pomoc">Kontakt/Jak Pomóc</a> </strong>
 </p>
 

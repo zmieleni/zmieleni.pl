@@ -3,6 +3,7 @@ package pl.jednomandatowe
 import grails.converters.XML
 import grails.converters.JSON
 import org.springframework.dao.DataIntegrityViolationException
+import pl.jednomandatowe.Province
 
 class SignatureController {
 
@@ -29,6 +30,7 @@ class SignatureController {
 			def signatureInstance = new Signature(params)
 			if (captchaValid) {
 				signatureInstance.allow = (params.allow == 'on')
+				signatureInstance.newSignature = true
 				if (!signatureInstance.save(flush: true)) {	            
 				render(view: "/sign",model:['signatureInstance':signatureInstance])
 	            return
@@ -55,6 +57,7 @@ class SignatureController {
 			def signatureInstance = new Signature(params)
 			if (captchaValid) {
 				signatureInstance.allow = (params.allow == 'on')
+				signatureInstance.newSignature = true
 				if (!signatureInstance.save(flush: true)) {
 				render(view: "/signNotPopup",model:['signatureInstance':signatureInstance])
 				return

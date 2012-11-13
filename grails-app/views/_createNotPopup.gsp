@@ -1,4 +1,5 @@
 <%@ page import="pl.jednomandatowe.Signature"%>
+<%@ page import="pl.jednomandatowe.Province"%>
 <g:if test="${signatureInstance==null}">
 <g:set var="signatureInstance"
 		value="${new pl.jednomandatowe.Signature() }">
@@ -32,7 +33,14 @@ $("#allow").attr("required", "true");
 					<f:field bean="signatureInstance" property="lastName"/>
 					<f:field bean="signatureInstance" property="email"/>
 					<f:field bean="signatureInstance" property="city" label="Miejscowość"/>
-					
+					<div class="control-group">
+						<label class="control-label" for="province"><g:message
+								code="province" default="Województwo"/>:</label>
+						<div class="controls">
+							<g:select from="${pl.jednomandatowe.Province.values()}" name="province"
+								optionKey="key"></g:select>
+						</div>
+					</div>
 					
 					<div class="control-group ">
 						<div class="controls">
